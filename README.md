@@ -26,3 +26,9 @@ List of RESTAPI for the app
 
 <img src="https://github.com/Ashlirankin18/boi/blob/main/screenshots/Screen%20Shot%202021-10-31%20at%208.09.36%20PM.png?raw=true" width="1000px">
 
+<img src="https://github.com/Ashlirankin18/boi/blob/main/screenshots/Screen%20Shot%202021-10-31%20at%208.07.48%20PM.png?raw=true" width="1000px">
+
+<img src="https://github.com/Ashlirankin18/boi/blob/main/screenshots/Screen%20Shot%202021-10-31%20at%208.08.05%20PM.png?raw=true" width="1000px">
+
+<img src="https://github.com/Ashlirankin18/boi/blob/main/screenshots/Screen%20Shot%202021-10-31%20at%208.08.18%20PM.png?raw=true" width="1000px">
+
