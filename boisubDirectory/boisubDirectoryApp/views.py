@@ -221,8 +221,3 @@ class BusinessOwnersView(TemplateView):
 
 class FormView(TemplateView):
     template_name = "forms.html"
-
-def postBook(request):
-    # response = request.post('https://blackindex.herokuapp.com/books', data={'title':'', 'author_first_name':'', 'author_last_name':''})
-    # response.json()
-    render(request, 'forms.html')

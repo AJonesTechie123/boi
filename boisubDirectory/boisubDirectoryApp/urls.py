@@ -26,5 +26,4 @@ urlpatterns = [
     path('businesses/services', views.services),
     path('businesses/food', views.food),
     path('businessowners/', views.businessOwners),
-    path('forms/', views.postBook)
     ]

@@ -70,17 +70,20 @@
 </div>
 </div>
 <div id="bookShow" class="hide2">
-  <div class="col-sm-9 me-9 form-floating">
-    <form action="/action_page.php" method="post">
-<input type="text" class="form-control mb-3"  id="bookName" required placeholder="Book Name"></input>
+<div class="col-sm-9 me-9 form-floating">
+<form method="POST">
+{% csrf_token %}
+<input type="text" class="form-control mb-3"  id="bookName" required placeholder="Book Name" name="book_title"></input>
 
 <div class="">
-<input type="text" class="form-control mb-3" id="authorName" required placeholder="Author Name"></input>
+<input type="text" class="form-control mb-3" id="authorName" required placeholder="Author First Name" name = "author_first_name"></input>
+
+<input type="text" class="form-control mb-3" id="authorName" required placeholder="Author Last Name" name = "author_last_name"></input>
 </div>
 <div class="input-group form-floating">
 
-<span class="input-group-text" id="basic-addon3">Website Link</span> <input type="text" class="form-control" aria-label="Website Link"  placeholder="Buisness Webaddress" required>
-<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">#Tags</button>
+<span class="input-group-text" id="basic-addon3">Website Link</span> <input type="text" class="form-control" aria-label="Website Link"  placeholder="Buisness Webaddress" required name="website_link">
+<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" name="tag">#Tags</button>
 <ul class="dropdown-menu dropdown-menu-end">
 <li><a class="dropdown-item" href="#">MOTIVATIONAL</a></li>
 <li><a class="dropdown-item" href="#">CHILDREN</a></li>
@@ -90,7 +93,7 @@
 
 </div>
 <div class="d-grid gap-2">
-<button class="btn btn-dark mt-3" type="submit">Submit</button>
+<button class="btn btn-dark mt-3" type="submit" value="post">Submit</button>
 </form>
 </div>
 </div>
