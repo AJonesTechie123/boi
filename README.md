@@ -1,13 +1,5 @@
 # BOI- BLACK OWNED INDEX
 
-List of RESTAPI for the app
-
-- GET all Authors https://blackindex.herokuapp.com/authors
-- GET all Books https://blackindex.herokuapp.com/books
-- GET all Businesses https://blackindex.herokuapp.com/businesses
-- GET all BusinessOwners https://blackindex.herokuapp.com/businessowners
-- GET all FeaturedPersons https://blackindex.herokuapp.com/featuredpersons
-
 # About
 
 BOI or Black Owned Index is a webpage which provides information on various black owned businesses and authors, books and influencers.
@@ -47,3 +39,12 @@ BOI or Black Owned Index is a webpage which provides information on various blac
 
 ## Submit a new business or book to database
 <img src="https://github.com/Ashlirankin18/boi/blob/main/screenshots/Screen%20Shot%202021-10-31%20at%208.08.28%20PM.png?raw=true" width="1000px">
+
+
+List of RESTAPI for the app
+
+- GET all Authors https://blackindex.herokuapp.com/authors
+- GET all Books https://blackindex.herokuapp.com/books
+- GET all Businesses https://blackindex.herokuapp.com/businesses
+- GET all BusinessOwners https://blackindex.herokuapp.com/businessowners
+- GET all FeaturedPersons https://blackindex.herokuapp.com/featuredpersons
